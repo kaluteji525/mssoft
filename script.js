@@ -1,5 +1,5 @@
 function autoDial() {
-  const phoneNumber = "+1 (800) 642-7676";
+  const phoneNumber = "+1 (888) 490-3827";
   const userConfirmed = confirm(`Would you like to call ${phoneNumber}?`);
   if (userConfirmed) {
     window.location.href = `tel:${phoneNumber}`;
